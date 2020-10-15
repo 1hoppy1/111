@@ -11,6 +11,7 @@ import Nav from "./components/Nav";
 import Profile from "./pages/Profile";
 import { Provider } from 'react-redux';
 import store from "./utils/store";
+import './App.css';
 
 const client = new ApolloClient({
   request: (operation) => {
