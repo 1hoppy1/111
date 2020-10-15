@@ -33,7 +33,7 @@ const resolvers = {
           populate: 'category'
         });
 
-        user.orders.sort((a, b) => b.purchaseDate - a.purchaseDate);
+        // user.orders.sort((a, b) => b.purchaseDate - a.purchaseDate);
 
         return user;
       }
